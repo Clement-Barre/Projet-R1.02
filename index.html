@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ma première page Web !</title>
+    <!-- L’icône est intégrée au fichier HTML. -->
+    <link rel="icon" type="image/png" href="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse4.mm.bing.net%2Fth%2Fid%2FOIP.6Yy6Mk5kMhUTtUh39jpDQQHaHa%3Fr%3D0%26pid%3DApi&f=1&ipt=140e4b5916cae8ed2cc7938d6db463fe9c26bf7f3baf025300bf2726a4a6ad1d&ipo=images">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <!-- Ce commentaire apparaît seulement dans le code source. -->
+    <h1>Ma première page Web !</h1>
+
+    <h2>Les niveaux de titres</h2>
+    <h3>Un titre de niveau 3</h3>
+    <h4>Un titre de niveau 4</h4>
+    <h5>Un titre de niveau 5</h5>
+
+    <h2>Le texte et les liens</h2>
+    <p>Une page Web peut contenir plusieurs paragraphes. Chaque paragraphe développe une idée.</p>
+    <p><strong>Le contenu d’une page doit être lisible.</strong> Les titres aident à retrouver une information.</p>
+    <p><em>Insister sur un mot peut changer le sens d’une phrase.</em> La balise <code>i</code> peut distinguer un mot étranger comme <i lang="en">browser</i>.</p>
+
+    <blockquote>
+        <p>Un titre bien choisi aide le lecteur à trouver ce qu’il cherche.</p>
+    </blockquote>
+
+    <pre>Première ligne
+    Deuxième ligne indentée
+Troisième ligne</pre>
+
+    <p><a href="https://www.mickael-martin-nevot.com/univ-amu/iut/but-informatique/">Consulter le TD1 sur le HTML</a></p>
+
+    <h2>Une liste ordonnée</h2>
+    <ol>
+        <li>Écrire le contenu de la page.</li>
+        <li>Organiser le texte avec des titres et des paragraphes.</li>
+        <li>Ouvrir le fichier dans un navigateur.</li>
+    </ol>
+
+    <h2>Les tableaux</h2>
+    <table border="1">
+        <caption>Menu sur deux lignes et en-tête sur deux colonnes</caption>
+        <tbody>
+            <tr>
+                <td colspan="2">En-tête</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Menu</td>
+                <td>Contenu principal</td>
+            </tr>
+            <tr>
+                <td>Contenu complémentaire</td>
+            </tr>
+            <tr>
+                <td colspan="2">Pied de page</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <table>
+        <caption>Tableau contenant un second tableau</caption>
+        <tbody>
+            <tr>
+                <td colspan="2">En-tête</td>
+            </tr>
+            <tr>
+                <td>Menu</td>
+                <td>
+                    <table>
+                        <caption>Contenu</caption>
+                        <tbody>
+                            <tr>
+                                <td>Article 1</td>
+                                <td>Article 2</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">Résumé des articles</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">Pied de page</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Donner votre avis</h2>
+    <!-- Remplacer avis@example.com par l’adresse qui doit recevoir les avis. -->
+    <form action="mailto:avis@example.com" method="post" enctype="text/plain">
+        <p>
+            <label for="prenom">Prénom</label>
+            <input type="text" id="prenom" name="prenom" required>
+        </p>
+        <p>
+            <label for="nom">Nom</label>
+            <input type="text" id="nom" name="nom" required>
+        </p>
+        <fieldset>
+            <legend>Sexe</legend>
+            <label><input type="radio" name="sexe" value="femme"> Femme</label>
+            <label><input type="radio" name="sexe" value="homme"> Homme</label>
+        </fieldset>
+        <p>
+            <label for="commentaire">Commentaire</label><br>
+            <textarea id="commentaire" name="commentaire" rows="5" cols="35" required></textarea>
+        </p>
+        <button type="submit">Ouvrir le brouillon d’e-mail</button>
+    </form>
+</body>
+</html>
