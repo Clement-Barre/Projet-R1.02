@@ -16,6 +16,10 @@ footer {
 .in_header_footer {
 	color:#D8EB9A;
 }
+#logo_nom {
+	display:flex;
+	
+}
 
 #logo_header {
 	width: 5%;
