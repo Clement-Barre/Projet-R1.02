@@ -1,3 +1,10 @@
+<div align="center">
+
+<img src="Autres/logo.png" width="110" alt="logozoo">
+
+# Zoo de bouzel
+</div>
+
 Liste membres groupe :
  - Clément Barre
  - Gabriel Bressan
