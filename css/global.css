@@ -15,9 +15,9 @@ footer {
 
 .in_header_footer {
 	color:#D8EB9A;
+	margine: 10px;
 }
 #logo_nom {
-	display:flex;
 	border-color:red;
 	border:solid;
 }
