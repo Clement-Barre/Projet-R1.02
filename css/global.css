@@ -20,6 +20,7 @@ footer {
 	display:flex;
 	border-color:red;
 	border:solid;
+	justify-content: space-between;
 	
 }
 
