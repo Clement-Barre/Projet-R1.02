@@ -13,10 +13,14 @@ footer {
 	background: #142D23;
 }
 
-#nom {
+.in_header_footer {
 	color:#D8EB9A;
 }
 
+#logo_header {
+	withd: 5%;
+	height: 5%;
+}
 body {
 	padding: 0px;
 }
