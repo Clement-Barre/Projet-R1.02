@@ -7,7 +7,7 @@ header {
 	
 	display:flex;
 	flex-direction: row;
-	justify-content:space-evenly;
+	justify-content: space-between;
 }
 footer {
 	background: #142D23;
@@ -20,8 +20,6 @@ footer {
 	display:flex;
 	border-color:red;
 	border:solid;
-	justify-content: space-between;
-	
 }
 
 #logo_header {
