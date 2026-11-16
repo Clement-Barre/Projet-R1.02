@@ -19,6 +19,7 @@ footer {
 #logo_nom {
 	display:flex;
 	border-color:red;
+	border:solid;
 	
 }
 
