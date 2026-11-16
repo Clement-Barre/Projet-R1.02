@@ -9,6 +9,10 @@ header {
 	flex-direction: row;
 	justify-content:space-evenly;
 }
+footer {
+	background: #142D23;
+}
+
 #nom {
 	color:#D8EB9A;
 }
