@@ -18,6 +18,8 @@ footer {
 	margine: 10px;
 }
 #logo_nom {
+	display:flex;
+	justify-content: space-evenly;
 	border-color:red;
 	border:solid;
 }
