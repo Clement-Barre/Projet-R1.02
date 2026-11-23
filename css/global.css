@@ -9,6 +9,7 @@ header {
 	
 	display:flex;
 	flex-direction: row;
+	align-items: center;
 	justify-content: space-between;
 }
 footer {
@@ -16,21 +17,22 @@ footer {
 }
 
 .in_header_footer {
-	display: inline flow-root;
 	color:#D8EB9A;
 	padding: 10px;
-	/*border:solid;*/
-	font-size: 120%;
+	
+	height: 100%;
+	width: 100%;
 }
 
 #logo_header {
-	width: 10%;
-	height: 10%;
-	border:solid;
+	width: 8%;
+	height: 8%;
 }
 #titre{
-	font-size: 200%;
+	text-align: left;
+	font-size:300%;
 	margin: 0px;
+	height: 8%;
 }
 body {
 	margin: 0px;
