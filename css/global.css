@@ -9,30 +9,48 @@ header {
 	
 	display:flex;
 	flex-direction: row;
-	align-items: center;
+	
 	justify-content: space-between;
+	align-items: center;
 }
 footer {
 	background: #142D23;
 }
 
 .in_header_footer {
-	color:#D8EB9A;
-	padding: 10px;
 	
-	height: 100%;
-	width: 100%;
+	color:#D8EB9A;
+	padding: 1%;
+	margin: 0px;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: 2px solid;
+	border-color: #d8eb9a00;
+
+	font-size: 130%;
+	transition: 0.5s;
+}
+.in_header_footer:hover {
+	border-color: #D8EB9A;
+
 }
 
 #logo_header {
 	width: 20%;
 	height: 20%;
+	width: 7%;
+	height: 7%;
 }
 #titre{
 	text-align: left;
-	font-size:300%;
+	font-size:200%;
 	margin: 0px;
 	height: 8%;
+	color:#D8EB9A;
+	height: 100%;
+	width: 100%;
+	width: 100%;
+	padding-left: 10px;
 }
 body {
 	margin: 0px;
