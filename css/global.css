@@ -18,17 +18,21 @@ footer {
 }
 
 .in_header_footer {
-	color:#D8EB9A;
-	padding: 10px;
-	text-decoration: none;
 	
-	height: 100%;
-	width: 100%;
+	color:#D8EB9A;
+	padding: 1%;
+	margin: 0px;
+	text-decoration: none;
+	text-align: center;
+	border-bottom: 2px solid;
+	border-color: #d8eb9a00;
+
 	font-size: 130%;
+	transition: 0.5s;
 }
 .in_header_footer:hover {
-	background: #D8EB9A;
-	color:#142D23;
+	border-color: #D8EB9A;
+
 }
 
 #logo_header {
@@ -47,7 +51,6 @@ footer {
 	width: 100%;
 	width: 100%;
 	padding-left: 10px;
-	color:#D8EB9A;
 }
 body {
 	margin: 0px;
