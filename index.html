@@ -17,7 +17,21 @@
         <p><a class= "in_header_footer" href="index.html">Accueil</a></p>
     </header>
     <h1>Présentation du Zoo</h1>
-    <video ><source src="Autres/vidéo - me at the zoo.mp4" type="video.mp4"/></video>
+    <video controls width="500" controls preload="metadata">
+        <source src="Autres/vidéo - me at the zoo.mp4" type="video/mp4" controls width="250"/>
+        <track
+            label="Français"
+            kind="subtitles"
+            srclang="fr"
+            src="Autres/sout-titre francais.vtt"
+            default />
+        <track
+            label="Japanese"
+            kind="subtitles"
+            srclang="jap"
+            src="Autres/sous-titre japonais.vtt"
+            default />
+    </video>
     <footer>
         <p class= "in_header_footer">Clément, Toan, Gabriel, Jalan</p>
         <script src="js/theme-changer.js" defer></script>
