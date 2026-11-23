@@ -2,6 +2,8 @@ header {
 	position:sticky;
 	top:0px;
 	left:0px;
+	width: 100%;
+	height: 10%;
 
 	background: #142D23;
 	
@@ -16,16 +18,24 @@ footer {
 .in_header_footer {
 	color:#D8EB9A;
 	padding: 10px;
+	border:solid;
 }
 #logo_nom {
 	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 20%;
+	height: 2%;
+	
+	border:solid; 
 	border-color:red;
-	border:solid;
+	padding: 1%;
 }
 
 #logo_header {
-	width: 50%;
-	height: 50%;
+	width: 100%;
+	height: 100%;
+	border:solid;
 }
 body {
 	padding: 0px;
