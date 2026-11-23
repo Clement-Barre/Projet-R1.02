@@ -2,8 +2,7 @@ header {
 	position:sticky;
 	top:0px;
 	left:0px;
-	width: 100%;
-	height: 10%;
+
 
 	background: #142D23;
 	
@@ -16,15 +15,17 @@ footer {
 }
 
 .in_header_footer {
+	display: inline flow-root;
 	color:#D8EB9A;
 	padding: 10px;
-	border:solid;
+	/*border:solid;*/
+	font-size: 120%;
 }
 #logo_nom {
-	display:flex;
-	flex-direction: row;
-	justify-content: space-between;
-	width: 20%;
+	display: flex;
+	/*flex-direction: row;
+	justify-content: space-between;*/
+	width: 30%;
 	height: 2%;
 	
 	border:solid; 
@@ -33,8 +34,8 @@ footer {
 }
 
 #logo_header {
-	width: 100%;
-	height: 100%;
+	width: 50%;
+	/*height: 100%;*/
 	border:solid;
 }
 body {
