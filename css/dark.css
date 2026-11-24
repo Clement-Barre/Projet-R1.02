@@ -1,0 +1,6 @@
+/* Thème Sombre (activable en ajoutant class="dark" sur le <body>) */
+body.dark {
+  --bg-page: #121212;
+  --bg-carte: #2b272d;
+  --texte: #f0f0f0;
+}
