@@ -43,17 +43,15 @@ footer {
 }
 
 #logo_header {
-	width: 6%;
-	height: 6%;
+	max-width : 6%;
+	height: auto;
 }
 #titre{
 	text-align: left;
 	font-size:200%;
 	margin: 0px;
-	height: 8%;
 	color:#D8EB9A;
 	height: 100%;
-	width: 100%;
 	width: 100%;
 	padding-left: 10px;
 }
