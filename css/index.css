@@ -1,5 +1,52 @@
 body {
-  margin: 0px;
-  background: #E7EDDB;
+    
+    background:#E7EDDB;
 }
-  
+/*#premiere_image {
+    position: absolute;
+    z-index: -1;
+    max-width: 100%;
+    height: auto;
+    background-size: cover;
+    filter: brightness(55%);
+    overflow: hidden;
+}*/
+#box1 {
+    background-image: url(../Autres/entree_zoo.png);
+    border-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)) fill 1;
+    background-position: 50% 20%;
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-size: cover;
+    
+
+    height : 200%;
+    z-index: 1;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    padding: 20px;
+    margin: 0px;
+    color:#D8EB9A;
+    font-size: 200%;
+    font-weight:bold;
+}
+
+#box2 {
+    background: #E7EDDB;
+    z-index: 2;
+}
+
+h2 {
+    margin-bottom: 20%;
+    font-size: 200%;
+    font-weight:bold;
+}
+#intro {
+    color: #142D23;
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.5);
+    padding: 20px;
+}
