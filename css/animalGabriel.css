@@ -1,17 +1,21 @@
 html{
     background-color: #EEDDC6;
 }
-
+p{
+    font-family:sans-serif;
+}
 header {
     z-index: 1;
 }
+h3{
+    font-family:sans-serif;
+}
 
-div{
+.card{
     display: flex;
     background-color: #d9d9d9;
     border-radius: 50px;
-    margin: 30px;
-
+    margin: 50px;    
 }
 
 h2{
@@ -29,32 +33,26 @@ h2{
     object-position: center;
     filter: brightness(0.5);
 }
-
-#creepy_monkey{
-    margin:30px;
-    width: 100% ;
-    border-radius: 50px;
-}
-#normal_monkey{
-    margin:30px;
-    width: 300px ;
-    border-radius: 50px;
-}
-#sawing_monkey{
-    margin:30px;
-    width: 400px;
-    border-radius: 50px;
-}
 #reverse_card{
     flex-direction: row-reverse;
+    
 }
 
 #titre_animal{
+    font-family:regular;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
     font-size: 5rem;
+    color: #a3c962;
+}
+#sous_titre{
+    
+    margin-top: 50px;
+    position: absolute;
+    top: 60%;
+    font-size: 1.5rem;
     color: #a3c962;
 }
 
@@ -63,8 +61,30 @@ h2{
     text-align: center;
     color: #a3c962;
 }
-
 .content{
-    display: flex;
-    flex-direction: column;
-}         
+    padding: 30px;
+}
+.monkey{
+    width: 35%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+    #sous_titre{
+        font-size: 1rem;
+        margin:20px;
+    }
+    #reverse_card{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .monkey{
+        width: 80%;
+        align-self: center;
+        margin: 20px;
+    }
+
+}
