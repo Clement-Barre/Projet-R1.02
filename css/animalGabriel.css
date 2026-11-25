@@ -16,7 +16,6 @@ h3{
     background-color: #d9d9d9;
     border-radius: 50px;
     margin: 50px;    
-    justify-content:space-around;
 }
 
 h2{
@@ -33,29 +32,6 @@ h2{
     object-fit: cover;
     object-position: center;
     filter: brightness(0.5);
-}
-
-#creepy_monkey{
-    object-fit: cover;
-    object-position: center;
-    position: sticky;
-    width: 35% ;
-    border-radius: 50px;
-
-}
-#normal_monkey{
-    width: 35% ;
-    object-fit: cover;
-    object-position: center;
-    
-    border-radius: 50px;
-
-}
-#sawing_monkey{
-    object-fit: cover;
-    object-position: center;
-    width: 50% ;
-    border-radius: 50px;
 }
 #reverse_card{
     flex-direction: row-reverse;
@@ -87,4 +63,28 @@ h2{
 }
 .content{
     padding: 30px;
+}
+.monkey{
+    width: 35%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+    #sous_titre{
+        font-size: 1rem;
+        margin:20px;
+    }
+    #reverse_card{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .monkey{
+        width: 80%;
+        align-self: center;
+        margin: 20px;
+    }
+
 }
