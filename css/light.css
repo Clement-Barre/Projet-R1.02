@@ -1,7 +1,28 @@
-/* 1. Variables de couleurs (Thème Clair par défaut) */
-:root {
-  --bg-page: #f5f5f5;
-  --bg-carte: #e6dfd5;
-  --texte: #1a1a1a;
-  --vert-accent: #142D23;
+header{
+  	background: #142D23;
+
+}
+footer {
+	background: #142D23;
+}
+body{
+  background-color: #EEDDC6;
+
+}
+.switch_box{
+  background: #D9D9D9;
+}
+.in_header {
+  background: #142D23;
+  color:#D8EB9A;
+
+}
+.in_header:hover {
+	border-color: #D8EB9A;
+}
+.in_footer{
+	color:#D8EB9A;
+}
+#titre{
+	color:#D8EB9A;
 }

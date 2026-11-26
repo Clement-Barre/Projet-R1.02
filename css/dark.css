@@ -1,6 +1,28 @@
-/* Thème Sombre (activable en ajoutant class="dark" sur le <body>) */
-body.dark {
-  --bg-page: #121212;
-  --bg-carte: #2b272d;
-  --texte: #f0f0f0;
+header{
+  	background: #29243D;
+
+}
+footer {
+	background: #29243D;
+}
+body{
+  background-color: #1B182C;
+
+}
+.switch_box{
+  background: #32253F;
+}
+.in_header {
+  background: #29243D;
+  color:#FFAA80;
+
+}
+.in_header:hover {
+	border-color: #FFAA80;
+}
+.in_footer{
+	color:#FFAA80;
+}
+#titre{
+	color:#FFAA80;
 }
