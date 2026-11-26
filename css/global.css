@@ -23,6 +23,11 @@ header {
 	align-items: center;
 }
 
+footer {
+	display:flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 .in_header {
 	
