@@ -8,6 +8,7 @@ footer {
 	background: #29243D;
 }
 body{
+  
   background-color: #1B182C;
 
 }
@@ -59,6 +60,7 @@ body{
 #horaires{
   color: #FFAA80;
 }
+
 #box4{
       background: #1B182C;
 
@@ -69,4 +71,7 @@ body{
 }
 #video_box{
   background: #32253F;
+}
+.dark{
+  color:white;
 }
