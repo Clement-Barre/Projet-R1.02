@@ -36,6 +36,18 @@ h2{
   padding: 100px 20px 40px;
 }
 
+/* Titre en forme de courbe */
+.titre {
+    position: absolute;
+    top: 50%;
+    font-size: 5rem;
+    fill: #a3c962;
+
+}
+#curv{
+    fill: transparent;
+}
+
 #sous_titre{
     color:#a3c962;
     background-color: rgba(0, 0, 0, 0.5);
@@ -44,15 +56,11 @@ h2{
     font-size: 1.5rem;
 }
 
-.image_titre h1{
-  font-size: 5rem;
-  color: #a3c962;
-  transform: rotate(-8deg); /* Effet incliné du titre */
-  margin-bottom: 250px;
-}
+
 
 .content{ 
     padding: 30px; 
+    font-size: 1.2rem;
 } 
 .content p{
     position: relative;
