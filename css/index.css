@@ -79,7 +79,7 @@ h2 {
     background-image: url(../Autres/Snow_leopard_portrait.jpg);
 }
 #image_capybara {
-    background-image: url(../Autres/Snow_leopard_portrait.jpg);
+    background-image: url(../Autres/capybara1.jpg);
 }
 #image_orangoutan {
     background-image: url(../Autres/orangoutan.jpg);
@@ -132,6 +132,11 @@ h2 {
         max-width: 1050px;
     }
 }
+@media (max-width: 520px) {
+    .text_box_right {
+        font-size: 130%;
+    }
+}
 
 /*-------------------------------------------------box3---------------------------------------*/
 #box3 {
@@ -143,7 +148,7 @@ h2 {
 }
 
 #horaires {
-    color: #B89360;
+    color: #866941;
     border-bottom: solid 5px;
     width: 90%;
     text-align: center;
@@ -205,7 +210,7 @@ td {
     display: flex;
     flex-direction: column;
     align-items: left;
-    
+    padding: 20px;
 }
 
 .type {
@@ -243,14 +248,45 @@ td {
 #video_box_right {
     position: relative;
     padding: 25px;
-    width: 25%;
-    font-size: 120%;
+    width: 40%;
+    font-size: 200%;
     top:0;
 }
 #video_link {
     position: absolute;
     bottom: 0px;
 }
+/*----------formulaire------------------------------------------------------------------------------*/
+form h2 {
+
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+form{
+    margin: 20px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+form label {
+  display: block;
+  margin: 1rem 0 0.3rem;
+}
+form input,textarea {
+  padding: 5px;
+  font: inherit;
+  border: 1.5px solid #b9a98c;
+  border-radius: 8px;
+}
+form input[type="submit"] {
+  margin-top: 1rem;
+  background-color: #b9a98c;
+  color: white;
+  border: none;
+}
+
+
 @media (max-width: 520px) {
     .type {
         text-align: center;
