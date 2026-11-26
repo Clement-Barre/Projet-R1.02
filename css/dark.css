@@ -1,6 +1,77 @@
-/* Thème Sombre (activable en ajoutant class="dark" sur le <body>) */
-body.dark {
-  --bg-page: #121212;
-  --bg-carte: #2b272d;
-  --texte: #f0f0f0;
+/*-----------------------------------global-----------------------------------------------------*/
+
+header{
+  	background: #29243D;
+
+}
+footer {
+	background: #29243D;
+}
+body{
+  
+  background-color: #1B182C;
+
+}
+
+.in_header {
+  background: #29243D;
+  color:#FFAA80;
+
+}
+.in_header:hover {
+	border-color: #FFAA80;
+}
+.in_footer{
+	color:#FFAA80;
+}
+#titre{
+	color:#FFAA80;
+}
+/*-----------------------------------index-----------------------------------------------------*/
+
+.switch_box{
+  background: #32253F;
+}
+.switch_box:hover {
+    .image_switch {
+        translate:  100%;
+    }
+    .text_box_left {
+        color:#ffffff;
+    }
+    .text_box_right {
+        color:#ffffff;
+    }
+}
+.text_box_left{
+  color: #ffffff;
+}
+.text_box_right{
+  color:#ffffff;
+}
+#box2{
+  background: #1B182C;
+
+}
+#box3{
+  background: #32253F;
+
+}
+#horaires{
+  color: #FFAA80;
+}
+
+#box4{
+      background: #1B182C;
+
+}
+#tarif{
+      color: #FFAA80;
+
+}
+#video_box{
+  background: #32253F;
+}
+.dark{
+  color:white;
 }

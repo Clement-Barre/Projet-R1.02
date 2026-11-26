@@ -7,6 +7,8 @@
     <link rel="icon" type="image/png" href="Autres/logo.png">
     <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" id="theme" href="css/light.css">
+
     <script src="js/theme-changer.js" defer></script>
 </head>
 
@@ -14,8 +16,7 @@
     <header>
         <img alt="Logo du Zoo" id="logo_header" src="Autres/logo.png">
         <h1 id = "titre">Zoo de Bouzel</h1>
-        <button class ="in_header" type="button">Thème</button>
-        <label class= "in_header" >thème</label>
+        <button class ="in_header" id="themeChanger" type="button">Thème</button>
         <a class= "in_header" href="index.html">Accueil</a>
     </header>
     <!-- <img alt="Image du Zoo" id="premiere_image" src="Autres/entree_zoo.JPG"> -->
@@ -74,7 +75,7 @@
     <section id="box3">
         <h2 id="horaires">HORAIRES</h2>
         <div class="vacances">
-            <h3>hors vacances</h3>
+            <h3 class="dark">hors vacances</h3>
             <table>
                 <tr>
                     <td>lun</td>
@@ -98,7 +99,7 @@
             </table>
         </div>
         <div class="vacances">
-            <h3>période de vacances scolaires</h3>
+            <h3 class="dark">période de vacances scolaires</h3>
             <table>
                 <tr>
                     <td>lun</td>
@@ -127,37 +128,25 @@
             <h3 class="type">
                  Pour 1 journée: 29,99€
             </h3>
-            <li class="nb_personnes">Pour 1 personne</li>
+            <li class="dark" class="nb_personnes">Pour 1 personne</li>
         </div>
         <div class="type_tarif">
             <h3 class="type">
                 Billet Amoureux : 29,99€
             </h3>
-            <li class="nb_personnes">Pour 2 personne</li>
+            <li  class="dark" class="nb_personnes">Pour 1 personne</li>
         </div>
         <div class="type_tarif">
             <h3 class="type">
                 Pour 2 journée : 45,55€
             </h3>
-            <li class="nb_personnes">Pour 1 personne</li>
+            <li class="dark" class="nb_personnes">Pour 1 personne</li>
         </div>
         <div class="type_tarif">
             <h3 class="type">
                 Billet Famille : 69,99€
             </h3>
-            <li class="nb_personnes">Pour 4 personne</li>
-        </div>
-        <div class="type_tarif">
-            <h3 class="type">
-                inscription Annuelle : 199,99€
-            </h3>
-            <li class="nb_personnes">Pour 1 perssone + gratuit pour un invité.</li>
-        </div>
-        <div class="type_tarif">
-            <h3 class="type">
-                Billet ZIP ZAP : 49,99€
-            </h3>
-            <li class="nb_personnes">Pour 1 perssone billet coupe-file</li>
+            <li class="dark" class="nb_personnes">Pour 1 personne</li>
         </div>
         <div id="video_box">
             
@@ -168,9 +157,9 @@
             </video>
            
             <div id="video_box_right">
-                <h3>Vidéo de promotion du zoo: </h3>
-                <p>
-                    Partez à la découverte de notre zoo de Bouzel qui a eu l'honneur d'acceuillir le célèbre Jawed Karim connu pour avoir publié la 1ère video youtube "Me at the zoo"
+                <h3 class="dark">Vidéo de promotion du zoo :</h3>
+                <p class="dark">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue  ipsum, interdum a dictum id, tincidunt id felis. Aenean nec blandit ex,  non pharetra nulla. Sed vitae rhoncus turpis, nec finibus ipsum.  Praesent quam ligula, tiLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras augue  ipsum, interdum a dictum id, tincidunt id felis. Aenean nec blandit ex,  non pharetra nulla.
                 </p>
                 <a id="video_link" href="https://www.youtube.com/watch?v=jNQXAC9IVRw">Voir la vidéo</a>
 
@@ -178,7 +167,7 @@
         </div>
         
     </section>
-    <form >
+    <form class="dark">
         <h2 class="form" >Donnez votre avis !</h2>
             
         <label>Nom :</label>
