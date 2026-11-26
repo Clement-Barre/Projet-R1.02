@@ -33,6 +33,7 @@ h2{
     object-position: center;
     filter: brightness(0.5);
 }
+
 #reverse_card{
     flex-direction: row-reverse;
     
@@ -57,14 +58,27 @@ h2{
 }
 
 .image_titre{
+  background: url("../Autres/orangoutan_chill.jpg") center/cover no-repeat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 100px 20px 40px;
+}
 
     text-align: center;
     color: #a3c962;
+.image_titre h1{
+  font-size: 5rem;
+  color: #a3c962;
+  transform: rotate(-8deg); /* Effet incliné du titre */
+  margin-bottom: 250px;
 }
+
 .content{
     padding: 30px;
 }
 .monkey{
+
+.animal{
     width: 35%;
     object-fit: cover;
     object-position: center;
@@ -82,6 +96,7 @@ h2{
         flex-direction: column;
     }
     .monkey{
+    .animal{
         width: 80%;
         align-self: center;
         margin: 20px;

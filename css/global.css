@@ -1,3 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #EEDDC6;
+  color: var(--texte);
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0px;
+}
+
 header {
 	position:sticky;
 	z-index: 10;
@@ -57,4 +69,15 @@ footer {
 }
 body {
 	margin: 0px;
+
+.conteneur {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1em; 
+  text-align: justify;
 }

@@ -3,12 +3,23 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+.card{
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    margin: 50px;    
 }
 
 body {
   background-color: #EEDDC6;
   color: var(--texte);
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+h2{
+    margin: 30px 30%;
+    padding: 10px;
+    background-color:#d9d9d9;
+    text-align: center;
+    border-radius: 50px;
 }
 
 /* Navbar & Footer */
@@ -18,18 +29,45 @@ body {
   padding: 15px 30px;
   display: flex;
   justify-content: space-between;
+#bg_monkey{   
+    width: 100% ;
+    height: 600px ;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.5);
 }
 
 .logo_header{
     width: 3%;
+#reverse_card{
+    flex-direction: row-reverse;
+    
 }
 
 .link {
     color: #D8EB9A;
     text-decoration: none;
+#titre_animal{
+    font-family:regular;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 5rem;
+    color: #a3c962;
+}
+#sous_titre{
+    
+    margin-top: 50px;
+    position: absolute;
+    top: 60%;
+    font-size: 1.5rem;
+    color: #a3c962;
 }
 /* Bannière Hero */
 .hero {
+
+.image_titre{
   background: url("../Autres/imgTigre/tigre4.jpg") center/cover no-repeat;
   color: rgb(255, 255, 255);
   text-align: center;
@@ -37,6 +75,7 @@ body {
 }
 
 .hero h1 {
+.image_titre h1{
   font-size: 5rem;
   color: #a3c962;
   transform: rotate(-8deg); /* Effet incliné du titre */
@@ -56,6 +95,8 @@ body {
   padding: 10px;
   border-radius: 12px;
   margin-bottom: 25px;
+.content{
+    padding: 30px;
 }
 
 /* Cartes (Version PC) */
@@ -72,7 +113,28 @@ body {
 /* Inverse l'ordre image / texte sur la 2e carte */
 .carte.inverse {
   flex-direction: row-reverse;
+.animal{
+    width: 35%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
 }
+@media screen and (max-width: 768px) {
+    #sous_titre{
+        font-size: 1rem;
+        margin:20px;
+    }
+    #reverse_card{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .animal{
+        width: 80%;
+        align-self: center;
+        margin: 20px;
+    }
 
 .carte-img {
   width: 35%;
