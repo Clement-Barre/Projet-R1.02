@@ -74,4 +74,8 @@ body{
 }
 .dark{
   color:white;
+} 
+
+#themeChanger svg:last-child {
+    display: none;
 }
