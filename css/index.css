@@ -40,12 +40,10 @@ h2 {
     flex-direction: row;
     justify-content: space-around;
     flex-wrap: wrap;
-    background: #E7EDDB;
     z-index: 2;
 }
 .switch_box {
     position: relative;
-    background: #D9D9D9;
     border-radius: 50px;
     font-size: 100%;
     max-width: 900px;
@@ -88,17 +86,7 @@ h2 {
     background-image: url(../Autres/imgTigre/tigre1.jpg);
 }
 
-.switch_box:hover {
-    .image_switch {
-        translate:  100%;
-    }
-    .text_box_left {
-        color:#000000;
-    }
-    .text_box_right {
-        color:#00000000;
-    }
-}
+
 
 .text_box_left {
     position: relative;
@@ -108,7 +96,6 @@ h2 {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    color:#142d2300;
     background:0;
     transition: 0.5s;
     font-size: 110%;
@@ -122,7 +109,6 @@ h2 {
     justify-content: center;
     text-align: left;
     padding: 20px;
-    color:#000000;
     font-size: 250%;
     transition: 0.5s;
 }
@@ -143,12 +129,11 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #EEDDC6;
     z-index: 2;
 }
 
 #horaires {
-    color: #866941;
+
     border-bottom: solid 5px;
     width: 90%;
     text-align: center;
@@ -187,7 +172,6 @@ td {
 
 /*-------------------------------------------------box4---------------------------------------*/
 #box4 {
-    background: #E7EDDB;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -197,7 +181,6 @@ td {
 }
 
 #tarif {
-    color: #142D23;
     border-bottom: solid 5px;
     width: 90%;
     text-align: center;
@@ -228,7 +211,7 @@ td {
 }
 
 #video_box {
-    background: #D9D9D9;
+    
     display: flex;
     flex-direction: row;
     justify-content: left;

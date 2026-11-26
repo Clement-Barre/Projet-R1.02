@@ -1,3 +1,4 @@
+/*-----------------------------------global-----------------------------------------------------*/
 header{
   	background: #142D23;
 
@@ -6,12 +7,12 @@ footer {
 	background: #142D23;
 }
 body{
+  color: #000000;
+
   background-color: #EEDDC6;
 
 }
-.switch_box{
-  background: #D9D9D9;
-}
+
 .in_header {
   background: #142D23;
   color:#D8EB9A;
@@ -25,4 +26,47 @@ body{
 }
 #titre{
 	color:#D8EB9A;
+}
+/*-----------------------------------index.html-----------------------------------------------------*/
+.switch_box{
+  background: #D9D9D9;
+}
+.switch_box:hover {
+    .image_switch {
+        translate:  100%;
+    }
+    .text_box_left {
+        color:#000000;
+    }
+    .text_box_right {
+        color:#00000000;
+    }
+}
+.text_box_left{
+  color: #000000;
+}
+.text_box_right{
+  color:#000000;
+}
+#box2{
+  background: #E7EDDB;
+
+}
+#box3{
+  background: #EEDDC6;
+
+}
+#horaires{
+  color: #866941;
+}
+#box4{
+      background: #E7EDDB;
+
+}
+#tarif{
+      color: #142D23;
+
+}
+#video_box{
+  background: #D9D9D9;
 }
