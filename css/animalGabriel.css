@@ -55,6 +55,10 @@ h2{
     font-size: 1.5rem;
     color: #a3c962;
 }
+#id_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
 
 .image_titre{
 
