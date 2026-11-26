@@ -247,7 +247,10 @@ td {
     font-size: 120%;
     top:0;
 }
-
+#video_link {
+    position: absolute;
+    bottom: 0px;
+}
 @media (max-width: 520px) {
     .type {
         text-align: center;
