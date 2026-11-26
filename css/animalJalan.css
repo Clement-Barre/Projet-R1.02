@@ -71,7 +71,11 @@ h2{
     width: 35%;
     object-fit: cover;
     object-position: center;
-    border-radius: 50px;
+    border-radius: 50px; 
+    transition: 0.5s;
+}
+.animal:hover{
+    transform: scale(1.1);
 }
 @media screen and (max-width: 768px) {
     #sous_titre{
