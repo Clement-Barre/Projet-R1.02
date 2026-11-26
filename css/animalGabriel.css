@@ -1,17 +1,9 @@
-html{
-    background-color: #EEDDC6;
-}
 
-header {
-    z-index: 1;
-}
-
-div{
+.card{
     display: flex;
     background-color: #d9d9d9;
     border-radius: 50px;
-    margin: 30px;
-
+    margin: 50px;    
 }
 
 h2{
@@ -22,49 +14,69 @@ h2{
     border-radius: 50px;
 }
 
-#bg_monkey{   
-    width: 100% ;
-    height: 600px ;
-    object-fit: cover;
-    object-position: center;
-    filter: brightness(0.5);
-}
 
-#creepy_monkey{
-    margin:30px;
-    width: 100% ;
-    border-radius: 50px;
-}
-#normal_monkey{
-    margin:30px;
-    width: 300px ;
-    border-radius: 50px;
-}
-#sawing_monkey{
-    margin:30px;
-    width: 400px;
-    border-radius: 50px;
-}
 #reverse_card{
     flex-direction: row-reverse;
+    
 }
 
 #titre_animal{
+    font-family:regular;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -100%);
     font-size: 5rem;
+    color: #a3c962;
+}
+#sous_titre{
+    
+    margin-top: 50px;
+    position: absolute;
+    top: 60%;
+    font-size: 1.5rem;
     color: #a3c962;
 }
 
 .image_titre{
+  background: url("../Autres/orangoutan_chill.jpg") center/cover no-repeat;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 100px 20px 40px;
+}
 
-    text-align: center;
-    color: #a3c962;
+.image_titre h1{
+  font-size: 5rem;
+  color: #a3c962;
+  transform: rotate(-8deg); /* Effet incliné du titre */
+  margin-bottom: 250px;
 }
 
 .content{
-    display: flex;
-    flex-direction: column;
+    padding: 30px;
+}
+
+.animal{
+    width: 35%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+}
+@media screen and (max-width: 768px) {
+    #sous_titre{
+        font-size: 1rem;
+        margin:20px;
+    }
+    #reverse_card{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .animal{
+        width: 80%;
+        align-self: center;
+        margin: 20px;
+    }
+
 }

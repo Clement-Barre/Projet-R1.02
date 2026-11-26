@@ -1,111 +1,87 @@
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+.card{
+    display: flex;
+    background-color: #d9d9d9;
+    border-radius: 50px;
+    margin: 50px;    
 }
 
-body {
-  background-color: #EEDDC6;
-  color: var(--texte);
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+h2{
+    margin: 30px 30%;
+    padding: 10px;
+    background-color:#d9d9d9;
+    text-align: center;
+    border-radius: 50px;
 }
 
-/* Navbar & Footer */
-.navbar, .footer {
-  background-color: #142D23;
-  color: #D8EB9A;
-  padding: 15px 30px;
-  display: flex;
-  justify-content: space-between;
+#bg_monkey{   
+    width: 100% ;
+    height: 600px ;
+    object-fit: cover;
+    object-position: center;
+    filter: brightness(0.5);
+}
+#reverse_card{
+    flex-direction: row-reverse;
+    
 }
 
-.logo_header{
-    width: 3%;
+#titre_animal{
+    font-family:regular;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size: 5rem;
+    color: #a3c962;
+}
+#sous_titre{
+    
+    margin-top: 50px;
+    position: absolute;
+    top: 60%;
+    font-size: 1.5rem;
+    color: #a3c962;
 }
 
-.link {
-    color: #D8EB9A;
-    text-decoration: none;
-}
-/* Bannière Hero */
-.hero {
+.image_titre{
   background: url("../Autres/imgTigre/tigre4.jpg") center/cover no-repeat;
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 100px 20px 40px;
 }
 
-.hero h1 {
+.image_titre h1{
   font-size: 5rem;
   color: #a3c962;
   transform: rotate(-8deg); /* Effet incliné du titre */
   margin-bottom: 250px;
 }
 
-/* Conteneur principal */
-.conteneur {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
+.content{
+    padding: 30px;
 }
-
-.titre-section {
-  background-color: #bfd4ec;
-  text-align: center;
-  padding: 10px;
-  border-radius: 12px;
-  margin-bottom: 25px;
+.animal{
+    width: 35%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
 }
+@media screen and (max-width: 768px) {
+    #sous_titre{
+        font-size: 1rem;
+        margin:20px;
+    }
+    #reverse_card{
+        flex-direction: column;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .animal{
+        width: 80%;
+        align-self: center;
+        margin: 20px;
+    }
 
-/* Cartes (Version PC) */
-.carte {
-  background-color: #bfd4ec;
-  border-radius: 20px;
-  padding: 20px;
-  margin-bottom: 25px;
-  display: flex;
-  align-items: center;
-  gap: 25px;
-}
-
-/* Inverse l'ordre image / texte sur la 2e carte */
-.carte.inverse {
-  flex-direction: row-reverse;
-}
-
-.carte-img {
-  width: 35%;
-  border-radius: 15px;
-  object-fit: cover;
-}
-
-.carte-texte {
-  width: 65%;
-}
-
-/* 2. Adaptation Version Mobile (écrans de moins de 768px) */
-@media (max-width: 768px) {
-  .hero h1 {
-    font-size: 3.5rem;
-  }
-
-  /* Sur votre maquette mobile, l'ordre est inversé par rapport au PC */
-  .carte {
-    flex-direction: row-reverse;
-    align-items: stretch; /* Étire l'image sur toute la hauteur du texte */
-    gap: 15px;
-  }
-
-  .carte.inverse {
-    flex-direction: row;
-  }
-
-  .carte-img {
-    width: 40%;
-  }
-
-  .carte-texte {
-    width: 60%;
-  }
 }
