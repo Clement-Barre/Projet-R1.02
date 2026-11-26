@@ -1,40 +1,82 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Animal de Clément</title>
+    <link rel="icon" type="image/png" href="../Autres/logo.png">
     <link rel="stylesheet" href="../css/global.css">
     <link rel="stylesheet" href="../css/animalClement.css">
+    <title>Ourang-outan</title>
 </head>
 <body>
+    <!-- Header -->
     <header>
         <img alt="Logo du Zoo" id="logo_header" src="../Autres/logo.png">
         <h1 id = "titre">Zoo de Bouzel</h1>
         <label class= "in_header" >thème</label>
         <a class= "in_header" href="../index.html">Accueil</a>
     </header>
-    <h1>Animal de Clément</h1>
-    <img id="SnowLeopard_1" src="../Autres/Snow_leopard_in_fully_covered_snow.jpg">
-    <p>La panthère des neiges vit dans les hautes montagnes d’Asie.
-        Son pelage gris tacheté lui permet de se cacher entre les rochers, même quand il y a de la neige.</p>
-    <h2>Miaouuu...</h2>
-    <img id="SnowLeopard_2" src="../Autres/Snow_leopard_portrait.jpg">
-    <h2>Comment elle communique </h2>
-    <p>La panthère des neiges ne peut pas rugir.
-        Pour communiquer, elle peut miauler, feuler ou laisser son odeur sur les rochers.</p>
-    <img id="SnowLeopard_3" src="../Autres/Snow_Leopard_standing_among_rocks.jpg">
-    <h2>Panthère des neiges</h2>
-    <p>La panthère des neiges, aussi appelée once, vit dans les montagnes d’Asie centrale et de l’Himalaya.
-        Elle passe souvent inaperçue grâce à son pelage gris couvert de taches foncées.</p>
-    <p>Ses grandes pattes l’aident à marcher dans la neige, un peu comme des raquettes.
-        Sa longue queue lui sert à garder l’équilibre sur les rochers et à se couvrir le museau quand il fait froid.</p>
-    <p>Elle vit surtout seule et chasse des animaux comme le bouquetin.
-        La perte de son habitat et les conflits avec les éleveurs font partie des menaces qui pèsent sur elle.</p>
-    <img id="SnowLeopard_4" src="../Autres/Snow_leopard_in_rock_cavity.jpg">
-    <h2>Fiche d'identité</h2>
+    <!-- Background image with animal name -->
+    <div class="image_titre">
+        <img class="title" id="bg_leopard" src="../Autres/Snow_leopard_in_fully_covered_snow.jpg">
+        <h1 id="title_animal">Léopard des neiges</h1>
+        <p id="sub_title">Surnommé le fantôme des montagnes, 
+            le léopard des neiges est un félin aussi majestueux que discret. 
+            Vivant dans les hautes montagnes d'Asie, 
+            il est parfaitement adapté aux conditions climatiques extrêmes. 
+            Son épaisse fourrure et son agilité exceptionnelle lui permettent de survivre 
+            dans les environnements les plus hostiles.</p>
+    </div>
+    <!-- Animal sound -->
+    <h2>MIAOUUU...</h2>
+    <!-- Global animal description -->
+    <div class="card">
+        <img id="animal_face" class="leopard" src="../Autres/Snow_leopard_portrait.jpg">
+        <div class="content">
+            <h3 >Un maître des montagnes</h3>
+
+            <p>Le léopard des neiges possède un pelage épais, 
+                gris clair et parsemé de taches sombres, 
+                lui permettant de se fondre dans les paysages rocheux et enneigés. 
+                Ses larges pattes facilitent ses déplacements sur la neige, 
+                tandis que sa longue queue lui assure un équilibre remarquable. 
+                Solitaire et discret, 
+                ce félin parcourt les montagnes escarpées à la recherche de ses proies.</p>
+        </div>
+    </div>
+    <!-- Importante information -->
+    <div class="card" id="reverse_card">
+        <img class="leopard" src="../Autres/Snow_Leopard_standing_among_rocks.jpg">
+        <div class="content">
+            <h3>Un prédateur aussi fascinent que menacé</h3>
+            <p>Au cœur des montagnes d'Asie, 
+                le léopard des neiges règne en véritable maître du camouflage. 
+                Grâce à sa puissance et à son agilité, 
+                il est capable de franchir de grandes distances en un seul bond et de chasser 
+                sur des terrains particulièrement difficiles. Malgré ses incroyables capacités, 
+                ce félin reste menacé par le braconnage, 
+                la disparition de son habitat et le changement climatique. 
+                Sa protection est essentielle pour préserver l'équilibre des écosystèmes montagneux.</p>
+        </div>
+    </div>
+    <!-- Precise description -->
+    <div class="card">
+        <img class="leopard" src="../Autres/Snow_leopard_in_rock_cavity.jpg">
+        <div class="content" id="id_card">
+        <h3>Fiche d'identité</h3>
+        <ul>
+            <li>Poids: 25-75 kg</li>
+            <li>Longueur du corps: 90-115 cm</li>
+            <li>Âge: 10-13 ans</li>
+            <li>Habitat: Hautes montagnes d'Asie</li>
+            <li>Alimentation: Carnivore</li>
+            <li>Reproduction: 2-4 petits après 100 jours de gestation</li>
+        </ul>
+        </div>
+    </div>
+    <!-- Footer -->
     <footer>
-        <p class="in_footer">Clément, Toan, Gabriel, Jalan</p>
+        <p class= "in_footer">Clément, Toan, Gabriel, Jalan</p>
     </footer>
 </body>
 </html>
